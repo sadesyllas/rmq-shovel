@@ -1,0 +1,16 @@
+{
+  "component": "shovel",
+  "name": "<NAME>",
+  "value": {
+    "ack-mode": "on-confirm",
+    "add-forward-headers": false,
+    "delete-after": "queue-length",
+    "dest-queue": "<QUEUE>",
+    "dest-uri": "<DST_URI>",
+    "prefetch-count": 1000,
+    "reconnect-delay": 5,
+    "src-queue": "<QUEUE>",
+    "src-uri": "<SRC_URI>"
+  },
+  "vhost": "/"
+}
