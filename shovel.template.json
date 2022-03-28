@@ -5,7 +5,7 @@
     "ack-mode": "on-confirm",
     "add-forward-headers": false,
     "delete-after": "queue-length",
-    "dest-queue": "<QUEUE>",
+    "dest-exchange": "shovel_<QUEUE>",
     "dest-uri": "<DST_URI>",
     "prefetch-count": 1000,
     "reconnect-delay": 5,
